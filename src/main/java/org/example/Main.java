@@ -42,6 +42,8 @@ public class Main {
 
         System.out.println("Forger Strength After creating a weapon: " + forger.getStrength());
 
+        // Soldier need to be on the Wall to fight "Winter is coming"
+        // Or else he can't fight
         Soldier soldier1 = new Soldier(Location.Wall);
         Soldier soldier2 = new Soldier(Location.Wall);
         System.out.println("Solder 1 health before attacking : " + soldier1.getHealth());
